@@ -103,6 +103,33 @@ li a:hover {
 	color: white;
 }
 
+/********** Desktop First Media Queries**********/
+
+/* tablet media queries */
+@media(max-width: 800px){
+
+	nav {
+		height: 160px;
+	}
+	.navContainer {
+		flex-direction: column-reverse ;
+		justify-content: space-between;
+		align-items: center;
+		padding: 35px 0;
+	}
+
+	.navList {
+		width: 900px;
+		/* margin: 20px 0 0; */
+		
+	}
+
+}
+
+/* mobile media queries */
+@media(max-width: 500px){
+
+}
 
 /******* Section 1 Styling *****/
 
@@ -127,7 +154,7 @@ header{
 	align-items: center;
 }
 
-.leftContainer h1 {
+.leftContainer h1 { 
 	font-size: 80px;
 	text-align: center;
 }
@@ -149,6 +176,26 @@ header{
 .getStarted:hover {
 	background-color: deepskyblue;
 	color: white; 
+}
+
+/********** Desktop First Media Queries**********/
+
+/* tablet media queries */
+@media(max-width: 800px){
+
+	header{
+		margin-top: 240px;
+	
+	}
+
+	.headerRow{
+		display: contents;
+	}
+	
+	.headerImg {
+		display: none;
+	}
+
 }
 
 /******* Article Styling *****/
