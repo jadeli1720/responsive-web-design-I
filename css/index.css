@@ -351,6 +351,58 @@ article {
 }
 
 
+/***************** Services Page ***************/
+
+/******* Services Header Styling *****/
+
+.servicesHeader{
+	margin: 100px 0px 10px;
+}
+
+
+.services-header-img {
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+}
+
+.servicesTitle{
+	font-size: 28px;
+	margin-top: 40px;
+}
+
+/********** Desktop First Media Queries**********/
+
+/* tablet media queries */
+@media(max-width: 800px){
+
+	.servicesHeader{
+		margin-top: 140px;
+		width: 800px;
+	}
+
+	.servicesTitle {
+		margin-top: 20px;
+	}
+
+	.servicesHeader h1, .servicesParagraph {
+		margin: 30px 20px 10px;
+	}
+
+}
+
+/* mobile media queries */
+@media(max-width: 500px) {
+	
+	.servicesHeader{
+		margin-top: 680px;
+	}
+	/* .services-header-img{
+		display: none;
+	} */
+}
+
+
 /******* Services Article Styling *****/
 
 .servicesArticle{
@@ -381,6 +433,32 @@ article {
 	
 }
 
+/********** Desktop First Media Queries**********/
+
+/* tablet media queries */
+@media(max-width: 800px){
+	.servicesArticle{
+		width: 800px;
+		padding: 30px 20px; 
+	}
+
+}
+
+/* mobile media queries */
+@media(max-width: 500px) {
+	.servicesArticle {
+		width: 500px;
+	}
+	.service-card {
+		flex-direction: column;
+	}
+
+	.card-info {
+		width: 100%;
+	}
+}
+
+
 /******* Services Section Styling *****/
 
 .service-facts {
@@ -407,4 +485,31 @@ article {
 .facts-left li {
 	list-style-type: square;
 	margin-left: 20px;
+}
+
+/********** Desktop First Media Queries**********/
+
+/* tablet media queries */
+@media(max-width: 800px){
+	.service-facts{
+		padding: 0px 20px;
+		width: 800px;
+	}
+
+	.facts-left {
+		width: 40%;
+	}
+
+}
+
+/* mobile media queries */
+@media(max-width: 500px) {
+	.service-facts {
+		flex-direction: column;
+	}
+
+	.facts-right {
+		display: none;
+	}
+	
 }
